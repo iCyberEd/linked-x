@@ -1,0 +1,35 @@
+.nav {
+    grid-area: nav;
+    display: block;
+    margin: 0px auto;
+}
+
+.nav ul {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: 15px;
+    /* background-color: white; */
+}
+
+.nav li {
+    display: inline;
+    padding: 5px;
+    background-color: rgb(17, 87, 117);
+    color: rgb(91, 180, 218);
+    margin-right: 5px;
+    /* border: 1px blue solid; */
+}
+
+.nav a li  {
+    color: rgb(91, 180, 218);
+}
+
+.nav li:hover {
+    background-color: rgb(91, 180, 218);
+    cursor: pointer;
+}
+
+.nav a li:hover  {
+    color: rgb(17, 87, 117);
+}
+

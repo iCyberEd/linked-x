@@ -1,0 +1,19 @@
+.userInfo {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 100px;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    color: white;
+}
+
+.avatar {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.userInfo:nth-child(odd) {
+    background-color: #9DBCC9;
+}
+.userInfo:nth-child(even) {
+    background-color: #8EB7C9;
+}

@@ -1,0 +1,93 @@
+body {
+  color: #333;
+  background-color: #f3f6f8;
+  font: 11px/1.5 verdana,sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #598192;
+}
+
+a:visited {
+  color: #B9E1F2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  text-indent: 10px;
+}
+
+.App {
+  /* text-align: center; */
+  display: grid;
+  grid-template-columns: 20% 80%;
+  /* grid-template-rows: 120px; */
+  grid-template-areas: 
+
+  "n c";
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+/*   row-gap: 10px;
+  column-gap: 10px; */
+  padding: 10px;
+  background-color: #f3f6f8;
+  margin-top: 65px;
+}
+
+
+.nav {
+  grid-area: n;
+  background-color: bisque;
+  width: 150px;
+}
+
+
+
+.logo-pets {
+  height: 300px;
+  pointer-events: none;
+}
+
+.userpic {
+  height: 50px;
+ /*  width: 50px; */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

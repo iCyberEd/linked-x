@@ -1,0 +1,76 @@
+.incidents {
+    display: grid;
+    grid-template-areas: 
+     "headlines details";
+     grid-template-columns: 70% 30%;
+}
+
+.details {
+    grid-area: details;
+    overflow-y: auto;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    /* position: absolute; */
+}
+.headlines {
+    grid-area: headlines;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.headlinesActivated {
+    background-color: rgba(152,216,244,.25);
+    grid-area: headlines;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.headlines:hover {
+    background-color: rgba(152,216,244,.25);
+    border-radius: 5px;
+    border-bottom-left-radius: 5px;    
+}
+
+.description {
+    display: none;
+    overflow-y: auto;
+    background-color: rgba(152,216,244,.25);
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    /* top: 0px;
+    left: 0px; */
+}
+
+/* .headlines:hover ~.details>.description{
+    display: block;
+} */
+
+.details:nth-child(odd) {
+    background-color: teal;
+}
+
+/* .incidents>div:hover {
+    
+} */
+.incidents>div:hover ~.details {
+    display: none;
+}
+
+.info div {
+    display: inline;
+    padding-right: 5px;
+}
+
+.comments {
+    background-color: rgba(152,216,244,.25);
+    border-radius: 10px;
+    overflow-y: scroll;
+    height: 79vh;
+    margin-left: 50px;
+}
+
+.comment-form {
+    margin: auto auto;
+}

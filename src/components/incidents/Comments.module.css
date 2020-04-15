@@ -1,0 +1,22 @@
+.commentsBlock {
+    padding: 5px;
+    text-align: right;
+}
+
+.commentName {
+    font-weight: bold;
+    /* border: 1px solid blue; */
+}
+
+.comment {
+    font-style: italic;
+}
+
+.you {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.textarea {
+    resize: none;
+}

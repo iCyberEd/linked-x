@@ -1,0 +1,95 @@
+.content {
+    padding: 20px;
+    background-color: white;
+    border: 1px #5BB4DA solid;
+    box-shadow: 1px 1px 5px #598192;
+    margin-bottom: 20px;
+    color: #115775;
+    font-size: 0.8rem;
+    width: 50vw;
+}
+
+.content header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom:  1px #5BB4DA dashed;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+/* .content header div {
+    justify-self: right;
+}
+ */
+.content header h2 {
+    color: #115775;
+    /* background-color: #B9E1F2; */
+    text-shadow: 1px 1px 1px #5BB4DA;
+    text-transform: lowercase;
+    /* display: flex;
+    justify-content: space-between;
+    border: 1px #5BB4DA solid;
+    width: 30%; */
+}
+
+.content header h2 span {
+    margin-left: 10px;
+    color: black;
+    /* text-decoration: underline; */
+}
+
+svg {
+    width: 16px; 
+    height: 16px;
+    padding: 0px;
+    margin-right: 10px;
+    /* box-shadow: 1px 1px 5px #598192; */
+}
+
+.user {
+    border-radius: 5px;
+}
+
+.name {
+    text-align: center;
+}
+
+/* .name h2 {
+    display: inline;
+} */
+
+
+
+.add {
+    display: flex;
+    justify-self: right;
+    /* border: 1px #5BB4DA solid; */
+}
+
+.skillsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.skillsList div {
+    margin: 7px;
+    padding: 7px;
+    background-color: #B9E1F2;
+    text-transform: capitalize;
+    border: 1px #115775 solid;
+    box-shadow: 1px 1px 5px #598192;
+    font-weight: bold;
+}
+
+.modalWindow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }

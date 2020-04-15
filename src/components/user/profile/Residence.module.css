@@ -1,0 +1,6 @@
+.backpack td {
+    width: 20px;
+    height: 20px;
+    border: 1px #5BB4DA solid;
+    box-shadow: 0px 0px 1px #598192;
+}
